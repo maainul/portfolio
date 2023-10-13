@@ -8,7 +8,7 @@ import {
   FcReading,
   FcViewDetails,
   FcVideoProjector,
-  FcBusinessContact,
+  FcBusinessContact
 } from "react-icons/fc";
 
 const Menu = ({ toggle }) => {
