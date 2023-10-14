@@ -1,20 +1,21 @@
 .home-container {
     height: 300px;
     color: white;
+    padding-left: 150px;
 
 }
 
 .home-content h1 {
     padding: 10px;
     padding-top: 80px;
-    margin-left: 150px;
+    /* margin-left: 150px; */
 
 }
 
 .home-content h2 {
     padding: 10px;
     color: #e0b50f;
-    margin-left: 150px;
+    /* margin-left: 150px; */
 
 }
 

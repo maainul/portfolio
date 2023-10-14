@@ -9,7 +9,7 @@ const Home = () => {
     <>
       <div className="container-fluide home-container">
         <div className="container home-content">
-          <h1>Hi I'm a</h1>
+          <h1>Hi 👋 I'm a</h1>
           <h2>
             <Typewriter
               options={{
