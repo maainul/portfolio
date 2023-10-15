@@ -23,7 +23,7 @@ const Layout = () => {
                 <AiOutlineDoubleRight size={30} />
               )}
             </p>
-          </div>
+          </div>                                        
           <Menu toggle={toggle} />
         </div>
         <div className="container">

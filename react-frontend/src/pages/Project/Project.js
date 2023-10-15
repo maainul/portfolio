@@ -1,6 +1,5 @@
-import React from 'react'
-import './Project.css'
-
+import React from "react";
+import "./Project.css";
 
 const Project = () => {
   return (
@@ -16,34 +15,102 @@ const Project = () => {
           since the 1500s, when an unknown printer took a galley of type and
           scrambled it to make a type specimen book.
         </p>
+        {/* Card Design */}
         <div className="row" id="ads">
-          <div className="card rounded">
-            <div className="card-image">
-              <span className="card-notify">Full Stack</span>
-              <img
-                src="https://img.freepik.com/free-photo/showing-cart-trolley-shopping-online-sign-graphic_53876-133967.jpg"
-                alt=""
-              />
-            </div>
-            <div className="card-image-overlay">
-              <span className="card-detail-badge">Node</span>
-              <span className="card-detail-badge">Express</span>
-              <span className="card-detail-badge">React</span>
-              <span className="card-detail-badge">MongoDB</span>
-            </div>
-            <div className="card-body">
-              <div className="ad-title">
-                <h5 className="text-uppercase">Shopping Wesite</h5>
+          <div className="col-md-4">
+            <div className="card rounded">
+              <div className="card-image">
+                <span className="card-notify-badge">Full stack</span>
+                <img
+                  src="https://unctad.org/sites/default/files/2021-03/2021-03-15_eCommerceCOVID19report-1-1220x675px.jpg"
+                  alt="project1"
+                />
               </div>
-              <a href="" className="ad-btn">
-                View
-              </a>
+              <div className="card-image-overly m-auto mt-3">
+                <span className="card-detail-badge">Node</span>
+                <span className="card-detail-badge">Express</span>
+                <span className="card-detail-badge">react</span>
+                <span className="card-detail-badge">Mongodb</span>
+              </div>
+              <div className="card-body text-center">
+                <div className="ad-title m-auto">
+                  <h6 className="text-uppercase">
+                    Techinfoyt Shopping Website
+                  </h6>
+                </div>
+                <a
+                  className="ad-btn"
+                  href="https://github.com/techinfo-youtube/ecommerce-app-2023"
+                >
+                  View
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card rounded">
+              <div className="card-image">
+                <span className="card-notify-badge">Full stack</span>
+                <img
+                  src="https://unctad.org/sites/default/files/2021-03/2021-03-15_eCommerceCOVID19report-1-1220x675px.jpg"
+                  alt="project1"
+                />
+              </div>
+              <div className="card-image-overly m-auto mt-3">
+                <span className="card-detail-badge">Node</span>
+                <span className="card-detail-badge">Express</span>
+                <span className="card-detail-badge">react</span>
+                <span className="card-detail-badge">Mongodb</span>
+              </div>
+              <div className="card-body text-center">
+                <div className="ad-title m-auto">
+                  <h6 className="text-uppercase">
+                    Techinfoyt Shopping Website
+                  </h6>
+                </div>
+                <a
+                  className="ad-btn"
+                  href="https://github.com/techinfo-youtube/ecommerce-app-2023"
+                >
+                  View
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card rounded">
+              <div className="card-image">
+                <span className="card-notify-badge">Full stack</span>
+                <img
+                  src="https://unctad.org/sites/default/files/2021-03/2021-03-15_eCommerceCOVID19report-1-1220x675px.jpg"
+                  alt="project1"
+                />
+              </div>
+              <div className="card-image-overly m-auto mt-3">
+                <span className="card-detail-badge">Node</span>
+                <span className="card-detail-badge">Express</span>
+                <span className="card-detail-badge">react</span>
+                <span className="card-detail-badge">Mongodb</span>
+              </div>
+              <div className="card-body text-center">
+                <div className="ad-title m-auto">
+                  <h6 className="text-uppercase">
+                    Techinfoyt Shopping Website
+                  </h6>
+                </div>
+                <a
+                  className="ad-btn"
+                  href="https://github.com/techinfo-youtube/ecommerce-app-2023"
+                >
+                  View
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </>
   );
-}
+};
 
-export default Project
+export default Project;
