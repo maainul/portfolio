@@ -1,12 +1,8 @@
-import React from 'react'
-import './WorkExp.css'
-
-
+import React from "react";
+import "./WorkExp.css";
 
 const WorkExp = () => {
-  return (
-    <div>WorkExp</div>
-  )
-}
+  return <></>;
+};
 
-export default WorkExp
+export default WorkExp;
