@@ -3,3 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+#dark{
+  background-color: #5f264a;
+}
+
+#dark .about{
+  background-color: #f770c5;
+}
+
+#dark .contact{
+  background-color: #f770c5;
+}
+
+#dark .card{
+  background-color: #f770c5;
+}

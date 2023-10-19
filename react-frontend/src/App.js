@@ -1,5 +1,6 @@
 import "./App.css";
 import Layout from "./components/layout/Layout";
+import { useTheme } from "./context/ThemeContext";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 import Project from "./pages/Project/Project";
@@ -7,8 +8,10 @@ import TechStack from "./pages/TechStack/TechStack";
 import ScrollToTop from "react-scroll-to-top";
 
 function App() {
+  const [theme] = useTheme();
   return (
     <>
+    <div id={theme}>
       <Layout />
       <div className="container">
         <About />
@@ -19,6 +22,7 @@ function App() {
       </div>
       <div className="footer mb-3 ms-3">
         <h4 className="text-center">Made With 😎 Md Mainul Hasan 2023</h4>
+      </div>
       </div>
       <ScrollToTop
         smooth
