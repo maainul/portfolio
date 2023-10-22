@@ -39,33 +39,35 @@ const Contact = () => {
                     <small className="or text-center">OR</small>
                     <div className="line" />
                   </div>
-                  <div className="row px-3">
-                    <input
-                      type="text"
-                      name="name"
-                      placeholder="Enter your Name"
-                      className="mb-3"
-                    />
-                  </div>
-                  <div className="row px-3">
-                    <input
-                      type="email"
-                      name="email"
-                      placeholder="Enter Your Email Address"
-                      className="mb-3"
-                    />
-                  </div>
-                  <div className="row px-3">
-                    <textarea
-                      type="text"
-                      name="msg"
-                      placeholder="Write your message"
-                      className="mb-3"
-                    />
-                  </div>
-                  <div className="row px-3">
-                    <button className="button">SEND MESSAGE</button>
-                  </div>
+                  <from action="/sendEmail" method="post">
+                    <div className="row px-3">
+                      <input
+                        type="text"
+                        name="name"
+                        placeholder="Enter your Name"
+                        className="mb-3"
+                      />
+                    </div>
+                    <div className="row px-3">
+                      <input
+                        type="email"
+                        name="email"
+                        placeholder="Enter Your Email Address"
+                        className="mb-3"
+                      />
+                    </div>
+                    <div className="row px-3">
+                      <textarea
+                        type="text"
+                        name="msg"
+                        placeholder="Write your message"
+                        className="mb-3"
+                      />
+                    </div>
+                    <div className="row px-3">
+                      <button className="button" type="submit">SEND MESSAGE</button>
+                    </div>
+                  </from>
                 </div>
               </div>
             </div>
